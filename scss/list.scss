@@ -1,0 +1,161 @@
+.content-detail {
+    background: #f8f8f8;
+    overflow: hidden;
+    a:hover {
+        text-decoration: underline;
+    }
+    .crumb {
+        height: 46px;
+        line-height: 46px;
+        li {
+            line-height: 46px;
+            padding-right: 12px;
+            margin-right: 12px;
+            background: url("../img/detail/crumb-arrow.png") no-repeat right center;
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+        li.active {
+            background: none;
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+    .content-list {
+        margin-bottom: 21px;
+        border: 1px solid #ccc;
+        background: #fff;
+        position: relative;
+        div {
+            overflow: hidden;
+            padding-top: 15px;
+            padding-bottom: 11px;
+        }
+        p {
+            padding: 0 26px;
+            line-height: 26px;
+            color: #595959;
+        }
+        a.l {
+            width: 35px;
+            height: 16px;
+            margin-top: 5px;
+            background: #008cd9;
+            color: #fff;
+            text-align: center;
+            margin-right: 23px;
+        }
+        ul {
+            line-height: 26px;
+            color: #000;
+            width: 966px;
+            li {
+                width: 138px;
+            }
+        }
+        .country,
+        .kinds,
+        .age {
+            border-bottom: 1px dashed #ccc;
+        }
+        .more {
+            display: block;
+            padding-right: 17px;
+            background: url("../img/list/more.png") no-repeat right;
+            position: absolute;
+            right: 43px;
+            bottom: 39px;
+        }
+    }
+    .content-item {
+        padding-top: 50px;
+        background: #fff url("../img/list/item-bg.png") no-repeat top center;
+        overflow: hidden;
+    }
+    ul.option {
+        height: 40px;
+        line-height: 40px;
+        li {
+            height: 40px;
+            padding-left: 25px;
+            padding-right: 26px;
+            &:hover {
+                border: 1px solid #ccc;
+                border-bottom: 0;
+                height: 39px;
+                line-height: 39px;
+                padding-left: 24px;
+                padding-right: 25px;
+                a {
+                    color: #008cd7;
+                }
+            }
+        }
+        li.sales,li.prices{
+            background: url(../img/list/sales.png) no-repeat 55px center;
+            &:hover{
+                background: url(../img/list/sales.png) no-repeat 54px center;
+            }
+        }
+        li.last {
+            div{
+                margin-top: 6px;
+                height: 25px;
+                width: 57px;
+                border: 1px solid #b5b5b5;
+                line-height: 25px;
+            }
+            .reduce{
+                line-height: 40px;
+                font-size:22px;
+                padding:0  5px;
+                color: #000;
+            }
+            input{
+                width: 35px;
+            }
+            &:hover {
+                border: none;
+                height: 40px;
+                line-height: 40px;
+                padding-left: 25px;
+                padding-right: 26px;
+            }
+        }
+    }
+    ul.listgoods {
+        li {
+            width: 276px; //          height: 452px;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            margin-right: 16px;
+            padding-top: 32px;
+            padding-bottom: 78px;
+        }
+    }
+}
+.listgoods{
+    padding-left: 7px;
+    .praise{
+        text-align: left;
+        padding-left: 26px;
+        a{
+            display: inline-block;
+            padding-right: 5px;
+            width: 10px;
+            height: 8px;
+            background: url(../img/list/heart.png) no-repeat;
+        }
+    }
+    .name{
+        text-align: left;
+        line-height: 18px;
+    }
+    .iprice{
+        color: #008CD6;
+        font-size: 14px;
+        line-height: 36px;
+    }
+}

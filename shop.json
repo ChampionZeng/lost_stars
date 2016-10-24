@@ -1,0 +1,37 @@
+{
+	"sites": [
+		{
+			"categories": "手机" ,
+			"items": [
+				{
+					"sonname": "国产",
+					"sonvalue": [
+						{
+							"sunname": "小米",
+							"sunvalue":"www.jd.com"
+						}, {
+							"sunname": "华为",
+							"sunvalue":"www.jd.com"
+						}
+					]
+				}
+			]
+		},{
+			"categories": "手机" ,
+			"items": [
+				{
+					"sonname": "国产",
+					"sonvalue": [
+						{
+							"sunname": "小米",
+							"sunvalue":"www.jd.com"
+						}, {
+							"sunname": "华为",
+							"sunvalue":"www.jd.com"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,160 @@
+.content-detail {
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.content-detail a:hover {
+  text-decoration: underline;
+}
+.content-detail .crumb {
+  height: 46px;
+  line-height: 46px;
+}
+.content-detail .crumb li {
+  line-height: 46px;
+  padding-right: 12px;
+  margin-right: 12px;
+  background: url("../img/detail/crumb-arrow.png") no-repeat right center;
+}
+.content-detail .crumb li a:hover {
+  text-decoration: underline;
+}
+.content-detail .crumb li.active {
+  background: none;
+}
+.content-detail .crumb li.active a {
+  font-weight: bold;
+}
+.content-detail .content-list {
+  margin-bottom: 21px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: relative;
+}
+.content-detail .content-list div {
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 11px;
+}
+.content-detail .content-list p {
+  padding: 0 26px;
+  line-height: 26px;
+  color: #595959;
+}
+.content-detail .content-list a.l {
+  width: 35px;
+  height: 16px;
+  margin-top: 5px;
+  background: #008cd9;
+  color: #fff;
+  text-align: center;
+  margin-right: 23px;
+}
+.content-detail .content-list ul {
+  line-height: 26px;
+  color: #000;
+  width: 966px;
+}
+.content-detail .content-list ul li {
+  width: 138px;
+}
+.content-detail .content-list .country,
+.content-detail .content-list .kinds,
+.content-detail .content-list .age {
+  border-bottom: 1px dashed #ccc;
+}
+.content-detail .content-list .more {
+  display: block;
+  padding-right: 17px;
+  background: url("../img/list/more.png") no-repeat right;
+  position: absolute;
+  right: 43px;
+  bottom: 39px;
+}
+.content-detail .content-item {
+  padding-top: 50px;
+  background: #fff url("../img/list/item-bg.png") no-repeat top center;
+  overflow: hidden;
+}
+.content-detail ul.option {
+  height: 40px;
+  line-height: 40px;
+}
+.content-detail ul.option li {
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 26px;
+}
+.content-detail ul.option li:hover {
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  height: 39px;
+  line-height: 39px;
+  padding-left: 24px;
+  padding-right: 25px;
+}
+.content-detail ul.option li:hover a {
+  color: #008cd7;
+}
+.content-detail ul.option li.sales, .content-detail ul.option li.prices {
+  background: url(../img/list/sales.png) no-repeat 55px center;
+}
+.content-detail ul.option li.sales:hover, .content-detail ul.option li.prices:hover {
+  background: url(../img/list/sales.png) no-repeat 54px center;
+}
+.content-detail ul.option li.last div {
+  margin-top: 6px;
+  height: 25px;
+  width: 57px;
+  border: 1px solid #b5b5b5;
+  line-height: 25px;
+}
+.content-detail ul.option li.last .reduce {
+  line-height: 40px;
+  font-size: 22px;
+  padding: 0  5px;
+  color: #000;
+}
+.content-detail ul.option li.last input {
+  width: 35px;
+}
+.content-detail ul.option li.last:hover {
+  border: none;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 26px;
+}
+.content-detail ul.listgoods li {
+  width: 276px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  margin-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 78px;
+}
+
+.listgoods {
+  padding-left: 7px;
+}
+.listgoods .praise {
+  text-align: left;
+  padding-left: 26px;
+}
+.listgoods .praise a {
+  display: inline-block;
+  padding-right: 5px;
+  width: 10px;
+  height: 8px;
+  background: url(../img/list/heart.png) no-repeat;
+}
+.listgoods .name {
+  text-align: left;
+  line-height: 18px;
+}
+.listgoods .iprice {
+  color: #008CD6;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+/*# sourceMappingURL=list.css.map */
