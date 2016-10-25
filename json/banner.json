@@ -1,0 +1,21 @@
+{
+	"first": [
+		{
+			"links": "javascript:;",
+			"src": "http://127.0.0.1:8020/anngo/img/index/banner1.png",
+			"contents": "预防感冒恒温保暖"
+		}, {
+			"links": "javascript:;",
+			"src": "http://127.0.0.1:8020/anngo/img/index/banner2.png",
+			"contents": "天然彩棉，贴心来袭"
+		}, {
+			"links": "javascript:;",
+			"src": "http://127.0.0.1:8020/anngo/img/index/banner3.png",
+			"contents": "德国喜宝百年传承品质"
+		},{
+			"links": "javascript:;",
+			"src": "http://127.0.0.1:8020/anngo/img/index/banner1.png",
+			"contents": "预防感冒恒温保暖"
+		} 
+	]
+}

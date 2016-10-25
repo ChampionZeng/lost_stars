@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<input type="text" id="fq1" value="" />
+		<input type="text" id="fq2" value="" />
+		<input type="text" id="fq3" value="" />
+		<input type="text" id="fq4" value="" />
+		<input type="text" id="fq5" value="" />
+		<input type="text" id="fq6" value="" />
+		<input type="button" id="btn" value="提交" />
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$.cookie.raw = false;
+			$.cookie.json = true;
+			
+			
+			$('#btn').click(function() {
+				$.cookie('faq', {
+					'faq1':$('#fq1').val(),
+					'faq2':$('#fq2').val(),
+					'faq3':$('#fq3').val(),
+					'faq4':$('#fq4').val(),
+					'faq5':$('#fq5').val(),
+					'faq6':$('#fq6').val()
+				})
+			});
+		})
+	</script>
+
+</html>

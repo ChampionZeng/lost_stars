@@ -12,7 +12,7 @@
 				<p class="l">Tel:4000-788-788</p>
 				<ul class="r">
 					<li class="l"><a href="javascript:;" id="loginBtn">登录</a></li>
-					<li class="l"><a href="register.html">注册</a></li>
+					<li class="l"><a href="register.html" id="register">注册</a></li>
 					<li class="l myanngo"><a href="javascript:;">我的安购</a></li>
 					<li class="l shopCar"><a href="javascript:;">购物车</a><span>(0)</span></li>
 				</ul>
@@ -68,20 +68,18 @@
 				<input type="text" class="l" value="" placeholder="荷兰牛栏"/>
 				<input type="button" class="r" value=""/>
 				<ul class="searchs">
-					<!--<li><a href="javascript:;">搜索结果1</a></li>
+					<li><a href="javascript:;">搜索结果1</a></li>
 					<li><a href="javascript:;">搜索结果2</a></li>
 					<li><a href="javascript:;">搜索结果3</a></li>
 					<li><a href="javascript:;">搜索结果1</a></li>
-					<li><a href="javascript:;">搜索结果1</a></li>-->
+					<li><a href="javascript:;">搜索结果1</a></li>
 				</ul>
 			</form>
 		</div>
 		<div id="notice" class="w">
 			<span class="l"></span>
 			<marquee class="l" direction="up" behavior="scroll" scrollamount="1" scrolldelay="0" loop="-1" width="600" height="37" >
-				<a href="javascript:;">父亲节八大神级奶爸获奖名单公告</a><br /><br /><br />
 				
-				<a href="javascript:;">母亲节八大神级奶妈获奖名单公告</a>
 			</marquee>
 			<ul class="r">
 				<li class="l"><a href="javascript:;" class="try">一听试购</a></li>
@@ -91,10 +89,10 @@
 		</div>
 		<div id="banner">
 				<ul>
-					<li><a href="javascript:;"><img src="img/index/banner1.png" alt="" /></a></li>
+					<!--<li><a href="javascript:;"><img src="img/index/banner1.png" alt="" /></a></li>
 					<li><a href="javascript:;"><img src="img/index/banner2.png" alt="" /></a></li>
 					<li><a href="javascript:;"><img src="img/index/banner2.png" alt="" /></a></li>
-					<li><a href="javascript:;"><img src="img/index/banner1.png" alt="" /></a></li>
+					<li><a href="javascript:;"><img src="img/index/banner1.png" alt="" /></a></li>-->
 				</ul>
 				<p><a href="javascript:;" class="active"></a><a href="javascript:;"></a><a href="javascript:;"></a></p>
 		</div>
@@ -609,15 +607,15 @@
 		<div id="login">
 			<h2>Anngo 登录<span class="close">×</span></h2>
 			<div class="hr"></div>
-			<form action="" method="post">
+			<form >
 				<div class="form-group"><label for="account">账号</label><input type="text" name="" id="account" value="" /></div>
 				<div class="form-group"><label for="pwd">密码</label><input type="password" id="pwd"/></div>
 				<div class="form-group"><input type="checkbox" name="keep" id="keep" value="" /><label for="keep">记住密码</label></div>	
-				<div class="form-group center"><input type="submit" id="sub" value="登录"/></div>	
+				<div class="form-group center"><input type="button" id="sub" value="登录"/></div>	
 			</form>
 		</div>
 	</body>
 	<script src="js/lib/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+
+	<body>
+		<div id="topBox">
+			<div id="top" class="w">
+				<p class="l p1">HongKong:00852-30697886</p>
+				<p class="l">Tel:4000-788-788</p>
+				<ul class="r">
+					<li class="l">
+						<a href="javascript:;" id="loginBtn">登录</a>
+					</li>
+					<li class="l">
+						<a href="register.html" id="register">注册</a>
+					</li>
+					<li class="l myanngo">
+						<a href="javascript:;">我的安购</a>
+					</li>
+					<li class="l shopCar">
+						<a href="javascript:;">购物车</a><span>(0)</span></li>
+				</ul>
+			</div>
+		</div>
+		<div id="header" class="w">
+			<h1><a href="javascript:;"><img src="img/index/logo.png"/></a></h1>
+		</div>
+		<div id="nav" class="w">
+			<ul class="l">
+				<li class="l active first">
+					<span class="left"></span>
+					<a class="center">首页</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">进口奶粉</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">营养品</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">辅食</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">宝宝喂养用品</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">宝宝日用品</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">孕妇/女士用品</a>
+					<span class="right"></span>
+				</li>
+				<li class="l">
+					<span class="left"></span>
+					<a class="center">新品上线<span>(new)</span></a>
+					<span class="right"></span>
+				</li>
+			</ul>
+			<form action="" method="post" class="r">
+				<input type="text" class="l" value="" placeholder="荷兰牛栏" />
+				<input type="button" class="r" value="" />
+				<ul class="searchs">
+					<li>
+						<a href="javascript:;">搜索结果1</a>
+					</li>
+					<li>
+						<a href="javascript:;">搜索结果2</a>
+					</li>
+					<li>
+						<a href="javascript:;">搜索结果3</a>
+					</li>
+					<li>
+						<a href="javascript:;">搜索结果1</a>
+					</li>
+					<li>
+						<a href="javascript:;">搜索结果1</a>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div id="cart" class="w">
+			<div class="cart-top">
+				<h2 class="l">全部商品<span>1</span></h2>
+				<div class="where r">
+					配送至：<select>
+						<option value="bj">北京</option>
+						<option value="sh">上海</option>
+						<option value="sz">深圳</option>
+						<option value="hz">杭州</option>
+					 </select>
+				</div>
+			</div>
+			<ul class="cart-title">
+				<li class="l all"><input type="checkbox" name="vehicle" id="all" value="all"><label for="all">全选</label></li>
+				<li class="l shop">商品</li>
+				<li class="l univalent">单价(元)</li>
+				<li class="l amount">数量</li>
+				<li class="l subtotal">小计(元)</li>
+				<li class="l operation">操作</li>
+			</ul>
+			
+			<ul class="cart-content">
+				<li class="l all"><input type="checkbox" name="siger"  value="all"></li>
+				<li class="l shop">
+					<img src="img/cart/shop_pic.png" alt="" class="l" />
+					<p class="l"><a href="javascript:;">德国牛栏奶粉</a><br/>德国妈妈首选,德国孩子成长奶粉</p>
+				</li>
+				<li class="l univalent">1099.00</li>
+				<li class="l amount">
+					<div class="calc">
+						<input type="button" class="l reduce" value="-"/>
+						<input type="text" class="l num" value="1"/>
+						<input type="button" class="l add" value="+"/>
+					</div>
+				</li>
+				<li class="l subtotal">1099.00</li>
+				<li class="l operation"><a href="javascript:;">删除</a></li>
+			</ul>
+			
+			<ul class="cart-content">
+				<li class="l all"><input type="checkbox" name="siger"  value="all"></li>
+				<li class="l shop">
+					<img src="img/cart/shop_pic.png" alt="" class="l" />
+					<p class="l"><a href="javascript:;">荷兰牛栏奶粉</a><br/>荷兰妈妈首选,英国孩子成长奶粉</p>
+				</li>
+				<li class="l univalent">1099.00</li>
+				<li class="l amount">
+					<div class="calc">
+						<input type="button" class="l reduce" value="-"/>
+						<input type="text" class="l num" value="1"/>
+						<input type="button" class="l add" value="+"/>
+					</div>
+				</li>
+				<li class="l subtotal">1099.00</li>
+				<li class="l operation"><a href="javascript:;">删除</a></li>
+			</ul>
+			
+			
+			<div class="settlement">
+				<a class="r settleBtn" href="javascript:;">去结算</a>
+				<p class="r">总价<span id="total">￥1099.00</span></p>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

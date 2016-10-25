@@ -363,7 +363,7 @@
   font-size: 12px;
   color: #fff;
   padding-left: 12px;
-  background: url(../img/detail/joincar.png) no-repeat;
+  background: url("../img/detail/joincar.png") no-repeat;
 }
 .introduce-right-bot .right-bar .information {
   width: 93px;
@@ -374,7 +374,7 @@
   font-size: 12px;
   color: #fff;
   padding-left: 8px;
-  background: url(../img/detail/imformation.png) no-repeat;
+  background: url("../img/detail/imformation.png") no-repeat;
 }
 
 /*# sourceMappingURL=detail.css.map */

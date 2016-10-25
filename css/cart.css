@@ -1,0 +1,130 @@
+#cart .cart-top {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+#cart .cart-top h2 {
+  color: #008CD6;
+  font-size: 14px;
+}
+#cart .cart-title {
+  border: 1px solid #ccc;
+  background: #f3f3f3;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.cart-title input {
+  display: block;
+  float: left;
+  margin-top: 14px;
+}
+
+.all {
+  width: 66px;
+}
+
+.shop {
+  width: 458px;
+}
+
+.univalent {
+  width: 164px;
+}
+
+.amount {
+  width: 174px;
+}
+
+.subtotal {
+  width: 188px;
+}
+
+.operation {
+  width: 120px;
+}
+
+.cart-content {
+  margin-top: 25px;
+  height: 105px;
+  padding: 15px 10px 0 10px;
+  border: 1px solid #ccc;
+}
+.cart-content .all {
+  text-align: center;
+  line-height: 80px;
+}
+.cart-content .shop img {
+  border: 1px solid #ccc;
+}
+.cart-content .shop p {
+  font-size: 14px;
+  width: 200px;
+  margin-left: 15px;
+  line-height: 18px;
+}
+.cart-content .shop p a:hover {
+  text-decoration: underline;
+  color: #008CD6;
+}
+.cart-content .univalent {
+  font-size: 14px;
+}
+.cart-content .subtotal {
+  font-size: 14px;
+  font-weight: bold;
+}
+.cart-content .operation a:hover {
+  text-decoration: underline;
+}
+
+.calc {
+  width: 78px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+.calc input {
+  color: #666;
+  font-size: 14px;
+}
+.calc .reduce, .calc .add {
+  width: 16px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.calc .num {
+  width: 44px;
+  height: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+
+.settlement {
+  margin-top: 30px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+.settlement .settleBtn {
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: #008CD6;
+}
+.settlement p {
+  margin-right: 30px;
+  line-height: 50px;
+}
+.settlement p span {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+/*# sourceMappingURL=cart.css.map */
